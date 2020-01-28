@@ -19,3 +19,56 @@ for i in range (5, 11, 2):
     mysum += i
     if mysum == 5:
         break
+
+#LOOP EXERCISES
+
+x = 2
+while x <= 10:
+        print(x)
+        x += 2
+print('Goodbye!')
+
+print("")
+
+print('Hello!')
+x = 10
+while x <= 10 and x >= 2:
+        print(x)
+        x -= 2
+
+print("")
+
+end = 6
+x = 0
+y = 0
+while x < end:
+    x += 1
+    y += x
+    print("X " + str(x))
+    print("Y " + str(y))
+print("Final result: " + str(y))
+
+print("")
+
+for num in (2, 4, 6, 8, 10):
+    print(num)
+print('Goodbye!')
+
+print("")
+
+print('Hello!')
+for num in (10, 8, 6, 4, 2):
+    print(num)
+
+print("")
+
+end = 6
+x = 0
+y = 0
+
+for num in range(0, end):
+    x += 1
+    y += x
+    print("X " + str(x))
+    print("Y " + str(y))
+print("Final result: " + str(y))
