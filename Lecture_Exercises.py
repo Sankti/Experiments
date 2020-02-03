@@ -72,3 +72,14 @@ for num in range(0, end):
     print("X " + str(x))
     print("Y " + str(y))
 print("Final result: " + str(y))
+
+s = "Hello!"
+s[0] = "Y"
+
+# TypeError: 'str' object does not support item assignment
+
+s = "Hello!"
+s = "Y" + s[1:]
+print(s)
+
+# Yello!
