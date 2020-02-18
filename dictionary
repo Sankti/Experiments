@@ -4,8 +4,17 @@ animals['d'] = ['donkey']
 animals['d'].append('dog')
 animals['d'].append('dingo')
 
-def how_many(aDict):
-  animals_count = 0
-  for l in aDict:
-    animals_count += len(aDict[l])
-  return(animals_count)
+def biggest(aDict):
+  if aDict == {}:
+    return None
+  else:
+    animal_freq = {}
+    for l in aDict:
+      for word in l:
+        if l in animal_freq:
+          animal_freq[l] += 1
+        else:
+          animal_freq[l] = 1
+    return max(animal_freq)
+
+print(biggest(animals))
