@@ -3,6 +3,7 @@ from tkinter import *
 # GUI SETUP
 
 root = Tk()
+root.title("Gra o Szron")
 root.geometry("480x480")
 
 # DEFINING FUNCTIONS 1
