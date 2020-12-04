@@ -22,4 +22,5 @@ class Structure():
     def display(self):
         print(self)
 
-
+tent = Structure(1, "Namiot", 1, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 100)
+hut = Structure(2, "Chatka", 2, -5, 1, 10, 0, 0, 0, 0, 0, 0, 0, 500)
