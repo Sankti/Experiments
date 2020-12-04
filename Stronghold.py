@@ -20,7 +20,9 @@ class Structure():
         self.price = price
 
     def display(self):
-        print(self)
+        print(self.price)
 
 tent = Structure(1, "Namiot", 1, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 100)
 hut = Structure(2, "Chatka", 2, -5, 1, 10, 0, 0, 0, 0, 0, 0, 0, 500)
+
+hut.display()
