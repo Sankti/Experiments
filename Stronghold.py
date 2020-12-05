@@ -24,5 +24,6 @@ class Structure():
 
 tent = Structure(1, "Namiot", 1, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 100)
 hut = Structure(2, "Chatka", 2, -5, 1, 10, 0, 0, 0, 0, 0, 0, 0, 500)
+house = Structure(3, "Dom", 6, -10, 1, 50, 0, 0, 0, 0, 0, 0, 0, 2000)
 
 hut.display()
