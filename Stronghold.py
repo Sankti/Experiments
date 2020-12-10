@@ -27,3 +27,10 @@ hut = Structure(2, "Chatka", 2, -5, 1, 10, 0, 0, 0, 0, 0, 0, 0, 500)
 house = Structure(3, "Dom", 6, -10, 1, 50, 0, 0, 0, 0, 0, 0, 0, 2000)
 
 hut.display()
+
+base_gold = 500
+base_morale = 0
+
+base_gold -= hut.price
+
+print(base_gold)
